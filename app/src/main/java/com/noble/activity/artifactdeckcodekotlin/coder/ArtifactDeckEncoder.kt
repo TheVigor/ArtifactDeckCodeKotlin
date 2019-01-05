@@ -1,9 +1,9 @@
 package com.noble.activity.artifactdeckcodekotlin.coder
 
 import android.util.Base64
-import com.noble.activity.artifactdeckcodekotlin.model.CardRef
-import com.noble.activity.artifactdeckcodekotlin.model.Deck
-import com.noble.activity.artifactdeckcodekotlin.model.HeroRef
+import com.noble.activity.artifactdeckcodekotlin.model.deck.CardRef
+import com.noble.activity.artifactdeckcodekotlin.model.deck.Deck
+import com.noble.activity.artifactdeckcodekotlin.model.deck.HeroRef
 import java.lang.Exception
 import kotlin.math.floor
 

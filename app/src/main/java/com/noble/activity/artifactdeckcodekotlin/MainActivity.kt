@@ -21,14 +21,14 @@ class MainActivity : AppCompatActivity() {
         val encoder = ArtifactDeckEncoder()
         val decoder = ArtifactDeckDecoder()
 
-        val deck = decoder.parseDeck(firstDeckCode)
+        val deck = decoder.decode(firstDeckCode)
         val deckCode = encoder.encode(deck)
 
         if (deckCode != firstDeckCode) {
             throw Exception("First deck mismatch")
         }
 
-        val deck2 = decoder.parseDeck(secondDeckCode)
+        val deck2 = decoder.decode(secondDeckCode)
         val deckCode2 = encoder.encode(deck2)
 
         if (deckCode2 != secondDeckCode) {

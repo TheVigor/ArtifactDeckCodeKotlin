@@ -1,6 +1,6 @@
-package com.noble.activity.artifactdeckcodekotlin.model
+package com.noble.activity.artifactdeckcodekotlin.model.state
 
-data class HeroVar constructor(
+data class CardState constructor(
     var result: Boolean,
     var indexStart: Int,
     var prevCardBase: Int,
