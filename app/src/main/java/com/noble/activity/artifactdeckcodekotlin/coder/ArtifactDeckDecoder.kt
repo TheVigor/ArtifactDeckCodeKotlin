@@ -236,7 +236,7 @@ class ArtifactDeckDecoder {
 
             cards.add(CardRef(id = derCard.outCardId, count= derCard.outCount))
         }
-        
+
         var name = ""
         if (derCard.indexStart < totalBytes) // < instead of <=, deckBytes starts at 1 in PHP
         {
